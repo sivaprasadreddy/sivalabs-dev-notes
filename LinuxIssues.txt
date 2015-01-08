@@ -1,0 +1,40 @@
+
+
+VirtualBox crash after installation complete and reboot 
+--------------------------------------------------------
+Ref: https://forums.virtualbox.org/viewtopic.php?f=6&t=52381
+I just restarted VM again and unmounted .iso iamge from CD/DVD drive.Guest OS booted perfectly without any issues.
+
+
+Install Virtualbox Guest Additions
+----------------------------------
+sudo apt-get install virtualbox-guest-x11
+http://askubuntu.com/questions/22743/how-do-i-install-guest-additions-in-a-virtualbox-vm
+
+
+Setting Proxy for Chrome on Linux:
+---------------------------------------------
+Open "sudo gedit /etc/chromium-browser/default" 
+Put CHROMIUM_FLAGS="--disable-new-tab-first-run --enable-user-scripts --proxy-server=http://proxy.yourdomain.zone:3128" 
+Then start Chromium and check chrome://net-internals/#proxy
+
+Ref: http://askubuntu.com/questions/513840/google-chrome-proxy-settings
+
+
+
+Installing NodeJS
+-----------------
+
+sudo sudo add-apt-repository ppa:chris-lea/node.js #or add-apt-repository ppa:richarvey/nodejs
+sudo apt-get update
+sudo apt-get install nodejs npm
+
+Installing Oracle JDK
+---------------------
+Ref: http://www.blogs.digitalworlds.net/softwarenotes/?p=41
+#sudo add-apt-repository ppa:webupd8team/java 
+#sudo apt-get update && sudo apt-get install oracle-jdk7-installer
+
+Behind proxy use -E flag
+#sudo -E add-apt-repository ppa:webupd8team/java 
+
