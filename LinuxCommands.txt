@@ -12,7 +12,39 @@ x86_64 ==> 64-bit kernel
 i686   ==> 32-bit kernel
 
 
+$ uname -a
+Linux localhost.localdomain 4.5.7-300.fc24.x86_64 #1 SMP Wed Jun 8 18:12:45 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux
 
 
+Getting Help on commands
+
+$ man pwd
+$ info pwd
+$ help pwd
+
+# to home to home directory
+$ cd ~ 
+
+# to know how much time it took to execute the command
+$ time pwd 
+
+# type command to check built-in or external command
+$ type pwd
+pwd is a shell builtin
+
+$ type bash
+bash is /bin/bash
+
+$ type -a pwd
+pwd is a shell builtin
+pwd is /bin/pwd
 
 
+# history to see the executed command history
+$ history
+
+# to execute 23rd command
+$ !23
+
+# to execute last command
+$ !! 
