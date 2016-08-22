@@ -28,6 +28,10 @@ $ cd ~
 # to know how much time it took to execute the command
 $ time pwd 
 
+To find out where a particular command is taken from.
+$ type bash
+bash is /bin/bash
+
 # type command to check built-in or external command
 $ type pwd
 pwd is a shell builtin
@@ -48,3 +52,96 @@ $ !23
 
 # to execute last command
 $ !! 
+
+# to edit history command by number, opens in VI
+$ fc 12
+
+To runs the most recent command that contains a particular string of characters.
+$ !?string? 
+
+$ who am i
+siva     pts/0        2016-08-22 10:26 (192.168.56.1)
+
+$ grep siva /etc/passwd
+siva:x:1000:1000:Siva:/home/siva:/bin/bash
+
+$ date
+Mon Aug 22 10:33:50 IST 2016
+
+$ hostname
+siva-centos7
+
+$ ls -al
+$ ls --help
+$ ls --hide=Desktop
+
+[siva@siva-centos7 ~]$ date
+Mon Aug 22 10:33:50 IST 2016
+
+$ date +'%d/%m/%y'
+22/08/16
+
+$ date +'%A, %B %d, %Y'
+Tuesday, October 21, 2014
+
+date --help
+
+[siva@siva-centos7 ~]$ id
+uid=1000(siva) gid=1000(siva) groups=1000(siva),10(wheel) context=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
+
+See which users logged into the system currently
+
+$ who -uH
+NAME     LINE         TIME             IDLE          PID COMMENT
+siva     :0           2016-08-22 10:11   ?          2575 (:0)
+siva     tty2         2016-08-22 10:12 00:29        3443
+siva     pts/0        2016-08-22 10:26   .          3935 (192.168.56.1)
+
+
+List all aliases
+$ alias
+
+
+If a command is not in your PATH variable
+$ locate chage
+
+
+Alt+F 	Word forward Go forward one word.
+Alt+B 	Word backward Go backward one word.
+Ctrl+A 	Beginning of line Go to the beginning of the current line.
+Ctrl+E 	End of line Go to the end of the line.
+Ctrl+L 	Clear screen Clear screen and leave line at the top of the screen.
+
+Alt+U Uppercase word Change the current word to uppercase.
+Alt+L Lowercase word Change the current word to lowercase.
+Alt+C Capitalize word Change the current word to an initial capital
+
+
+
+
+alias sai='sudo apt-get install'
+unalias sai
+
+For all users
+	/etc/profile
+	/etc/bashrc
+	
+User specific config files
+	~/.bash_profile
+	~/.bashrc
+	~/.bash_logout
+	
+
+To reload config file	
+$ source $HOME/.bashrc
+
+
+
+
+
+
+
+
+
+
+
