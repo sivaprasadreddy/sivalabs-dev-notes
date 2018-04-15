@@ -1,21 +1,16 @@
+# Docker Commands
 
-Start a container in interactive attached mode:
+## Docker basics
 
-* `docker run -i -t ubuntu:16.04 /bin/bash`
+Start a container in interactive attached mode: `docker run -i -t ubuntu:16.04 /bin/bash`
 
-Detach from a container
+Detach from a container: `Ctrl + P Ctrl + Q`
 
-* `Ctrl + P Ctrl + Q`
+Start a container in detached mode: `docker run -d ubuntu:16.04 /bin/bash`
 
-Start a container in detached mode:
+View logs of a container: `docker logs ContainerId`
 
-* `docker run -d ubuntu:16.04 /bin/bash`
-
-View logs of a container
-
-* `docker logs ContainerId`
-
-Start/Stop/Pause/Restart a container
+Start/Stop/Pause/Restart a container:
 
 * `docker start ContainerID`
 * `docker stop ContainerID`
@@ -23,50 +18,34 @@ Start/Stop/Pause/Restart a container
 * `docker pause ContainerID`
 * `docker unpause ContainerID`
 
-List running containers
+List running containers: `docker ps`
 
-* `docker ps`
+List all containers: `docker ps -a`
 
-List all containers
+List only container ids: `docker ps -aq`
 
-* `docker ps -a`
+List container ids not running: `docker ps -aq -f status=exited`
 
-List only container ids
+Delete a container: `docker rm containerId`
 
-* `docker ps -aq`
-
-List container ids not running
-
-* `docker ps -aq -f status=exited`
-
-Delete a container
-
-* `docker rm containerId`
-
-Delete all stopped containers
+Delete all stopped containers:
 
 * `docker rm $(docker ps -aq status=exited)`
 * `docker container prune`
 
-Automatically remove container once stopped
+Automatically remove container once stopped: `docker run -i -t --rm ubuntu:16.04 /bin/bash`
 
-* `docker run -i -t --rm ubuntu:16.04 /bin/bash`
+Commit changes in a docker container: `docker commit ContainerID username/repository`
 
-Commit changes in a docker container
+## Create Docker Image
 
-* `docker commit ContainerID username/repository`
+Build an image using Dockerfile: `docker build -t sivaprasadreddy/myapp:1.0 .`
 
-Build an image using Dockerfile
+Build an image using different Dockerfile name: 
 
-* `docker build -t sivaprasadreddy/myapp:1.0 .`
+`docker build -t busyboxplus:1.0 -f ./myfolder/MyDockerFile`
 
-Build an image using different Dockerfile name
-
-* `docker build -t busyboxplus:1.0 -f ./myfolder/MyDockerFile`
-
-View layers of a container
-
-* `docker history ContainerId`
+View layers of a container: `docker history ContainerId`
 
 **Sample Dockerfile**
 
@@ -76,7 +55,8 @@ FROM ubuntu:12.04
 
 LABEL maintainer="siva@mail.com"
 
-RUN apt-get update && apt-get install -y apache2 && apt-get clean && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y apache2 && \ 
+    apt-get clean && rm -rf /var/lib/apt/lists/*
 
 ENV APACHE_RUN_USER www-data
 ENV APACHE_RUN_GROUP www-data
@@ -86,6 +66,8 @@ EXPOSE 80
 
 CMD ["/usr/sbin/apache2", "-D", "FOREGROUND"]
 ```
+
+## Docker Instructions
 
 **FROM** : The FROM instruction initializes a new build stage and sets the Base Image for subsequent instructions.
 
