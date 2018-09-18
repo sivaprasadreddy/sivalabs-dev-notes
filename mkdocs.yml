@@ -1,8 +1,7 @@
 site_name: Quick Reference Docs
 theme: readthedocs
-pages:
+nav:
     - Home: index.md
-    - Tools: tools.md
     - Docker: docker.md
     - Ansible: ansible.md
     - Maven: maven.md
