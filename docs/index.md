@@ -10,6 +10,8 @@ Welcome to My Quick Reference Cheatsheets
 - [Babun](http://babun.github.io/) - a Windows shell you will love!.
 - [iTerms2](http://www.iterm2.com/) - iTerm2 is a replacement for Terminal that works on Macs with macOS 10.8 or newer.
 - [Oh-My-Zsh](http://ohmyz.sh/) - Your terminal never felt this good before.
+- [SdkMan](https://sdkman.io/) - The Software Development Kit Manager.
+
 
 ## Java Libraries
 

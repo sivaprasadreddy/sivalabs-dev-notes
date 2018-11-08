@@ -1,19 +1,15 @@
 sudo: false
 language: python
-
 env:
   global:
-  - secure: "..."
-
+  - secure: S/Qwufbvxf03AoBtb85ZP3mJUszLYixGN31M0EF9lcJA6csWT4wrBnuRpq0gyFAOYh5jXEkQEhmNfnL43xOHx5kZrDRbugaA63tZ8iuh3YngB3HVVCBom8qb1gE+MAWqHrzWcEMT+Q1AIbVqU9nsVt48p9hQRz+Lazz+pfKzuXM=
 install:
-  - pip install mkdocs
-
+- pip install mkdocs
 script:
-  - git clean -f -d -x
-
+- git clean -f -d -x
 after_success:
-  - git config user.name "K Siva Prasad Reddy"
-  - git config user.email "sivaprasadreddy.k@gmail.com"
-  - git remote add gh-token "https://${GH_TOKEN}@github.com/sivaprasadreddy/cheatsheets.git";
-  - git fetch gh-token && git fetch gh-token gh-pages:gh-pages;
-  - mkdocs gh-deploy -v --clean --remote-name gh-token;
+- git config user.name "K Siva Prasad Reddy"
+- git config user.email "sivaprasadreddy.k@gmail.com"
+- git remote add gh-token "https://${GH_TOKEN}@github.com/sivaprasadreddy/cheatsheets.git";
+- git fetch gh-token && git fetch gh-token gh-pages:gh-pages;
+- mkdocs gh-deploy -v --clean --remote-name gh-token;
