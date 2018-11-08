@@ -11,7 +11,7 @@ install:
 script:
   - git clean -f -d -x
 
-after_deploy:
+after_success:
   - git config user.name "K Siva Prasad Reddy"
   - git config user.email "sivaprasadreddy.k@gmail.com"
   - git remote add gh-token "https://${GH_TOKEN}@github.com/sivaprasadreddy/cheatsheets.git";
