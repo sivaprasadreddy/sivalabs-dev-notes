@@ -2,6 +2,7 @@ site_name: Quick Reference Docs
 theme: readthedocs
 nav:
     - Home: index.md
+    - Learning: learning.md
     - Docker: docker.md
     - Ansible: ansible.md
     - Maven: maven.md
