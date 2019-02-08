@@ -5,6 +5,7 @@ env:
   - secure: S/Qwufbvxf03AoBtb85ZP3mJUszLYixGN31M0EF9lcJA6csWT4wrBnuRpq0gyFAOYh5jXEkQEhmNfnL43xOHx5kZrDRbugaA63tZ8iuh3YngB3HVVCBom8qb1gE+MAWqHrzWcEMT+Q1AIbVqU9nsVt48p9hQRz+Lazz+pfKzuXM=
 install:
 - pip install mkdocs
+- pip install mkdocs-material
 script:
 - git clean -f -d -x
 after_success:
