@@ -1,4 +1,15 @@
-site_name: Quick Reference Docs
+site_name: 'Siva CheatSheets'
+site_description: 'My Quick Reference Docs'
+site_author: 'K Siva Prasad Reddy'
+site_url: 'https://sivaprasadreddy.github.io/cheatsheets/'
+
+# Repository
+repo_name: 'sivaprasadreddy/cheatsheets'
+repo_url: 'https://github.com/sivaprasadreddy/cheatsheets'
+
+# Copyright
+copyright: 'Copyright &copy; 2019 - 2020 K Siva Prasad Reddy'
+
 theme: material
 nav:
     - Home: index.md
@@ -12,4 +23,18 @@ nav:
     - Ansible: ansible.md
     - Linux: linux.md
     - Learning: learning.md
-    
+
+# Customization
+extra:
+  manifest: 'manifest.webmanifest'
+  social:
+    - type: 'github'
+      link: 'https://github.com/sivaprasadreddy'
+    - type: 'twitter'
+      link: 'https://twitter.com/sivalabs'
+    - type: 'linkedin'
+      link: 'https://linkedin.com/in/siva-prasad-reddy-k-3a909172'
+
+# Extensions
+markdown_extensions:
+  - codehilite

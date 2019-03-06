@@ -28,4 +28,4 @@ $ sdk install java 11.0.2-open
 
 ## References
 * <https://www.oracle.com/technetwork/java/javase/downloads/index.html>
-* <https://www.reddit.com/r/java](https://www.reddit.com/r/java>
+* <https://www.reddit.com/r/java>
