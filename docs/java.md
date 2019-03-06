@@ -14,7 +14,7 @@ $ sdk install java 11.0.2-open
 
 ## IDEs
 - [Intellij IDEA](https://www.jetbrains.com/idea/)
-- [Eclipse] (https://www.eclipse.org/downloads/packages/)
+- [Eclipse](https://www.eclipse.org/downloads/packages/)
 - [Spring Tool Suite](https://spring.io/tools/sts/all)
 - [NetBeans](https://netbeans.org/)
 
@@ -24,7 +24,8 @@ $ sdk install java 11.0.2-open
 - [REST Assured](https://github.com/rest-assured/rest-assured/wiki/Usage)
 - [Mock Server](http://www.mock-server.com/)
 - [TestContainers](https://www.testcontainers.org/)
+- [Resilience4j](https://github.com/resilience4j/resilience4j)
 
 ## References
-* https://www.oracle.com/technetwork/java/javase/downloads/index.html
-* https://www.reddit.com/r/java
+* [https://www.oracle.com/technetwork/java/javase/downloads/index.html](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
+* [https://www.reddit.com/r/java](https://www.reddit.com/r/java)
