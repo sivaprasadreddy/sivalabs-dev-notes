@@ -27,5 +27,5 @@ $ sdk install java 11.0.2-open
 - [Resilience4j](https://github.com/resilience4j/resilience4j)
 
 ## References
-* [https://www.oracle.com/technetwork/java/javase/downloads/index.html](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
-* [https://www.reddit.com/r/java](https://www.reddit.com/r/java)
+* <https://www.oracle.com/technetwork/java/javase/downloads/index.html>
+* <https://www.reddit.com/r/java](https://www.reddit.com/r/java>

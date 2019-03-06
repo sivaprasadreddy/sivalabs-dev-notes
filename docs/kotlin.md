@@ -12,7 +12,7 @@
 * [MockK](https://mockk.io/)
 
 ## References
-* [https://kotlinlang.org/docs/reference/]
-* [https://www.reddit.com/r/kotlin]
-* [https://github.com/KotlinBy/awesome-kotlin]
-* [http://www.kotlintoday.com/]
+* <https://kotlinlang.org/docs/reference/>
+* <https://www.reddit.com/r/kotlin>
+* <https://github.com/KotlinBy/awesome-kotlin>
+* <http://www.kotlintoday.com/>

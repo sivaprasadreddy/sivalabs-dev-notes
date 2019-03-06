@@ -7,5 +7,5 @@
 `sdk install gradle`
 
 ## References
-* https://gradle.org/guides/#getting-started
-* https://docs.gradle.org/current/userguide/userguide.html
+* <https://gradle.org/guides/#getting-started>
+* <https://docs.gradle.org/current/userguide/userguide.html>
