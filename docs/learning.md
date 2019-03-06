@@ -6,6 +6,3 @@
 ## Data Structures and Algorithms
 * [Algorithmic Thinking, Peak Finding Video](https://www.youtube.com/watch?v=HtSuA80QTyo) 
 
-## Kotlin
-* https://github.com/KotlinBy/awesome-kotlin
-* http://www.kotlintoday.com/

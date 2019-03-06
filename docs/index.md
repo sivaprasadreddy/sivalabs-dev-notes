@@ -2,7 +2,6 @@
 
 Welcome to My Quick Reference Cheatsheets
 
-
 # My favorite development tools
 
 ## CommandLine Tools
@@ -12,20 +11,8 @@ Welcome to My Quick Reference Cheatsheets
 - [Oh-My-Zsh](http://ohmyz.sh/) - Your terminal never felt this good before.
 - [SdkMan](https://sdkman.io/) - The Software Development Kit Manager.
 
+## Editors
 
-## Java Libraries
-
-- [JUnit 5 Docs](https://junit.org/junit5/docs/current/user-guide/)
-- [REST Assured](https://github.com/rest-assured/rest-assured/wiki/Usage)
-- [Mock Server](http://www.mock-server.com/)
-- [TestContainers](https://www.testcontainers.org/)
-
-## IDE
-
-- [Intellij IDEA](https://www.jetbrains.com/idea/)
-- [Spring Tool Suite](https://spring.io/tools/sts/all)
-- [NetBeans](https://netbeans.org/)
-- [Android Studio](https://developer.android.com/studio/index.html)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Atom](https://atom.io/)
 - [Sublime Text](https://www.sublimetext.com/3)
@@ -50,14 +37,3 @@ Welcome to My Quick Reference Cheatsheets
 - [Hugo](https://gohugo.io/)
 - [Jekyll](https://jekyllrb.com/)
 - [MkDocs](http://www.mkdocs.org/)
-
-## DevOps
-
-- [Docker](https://www.docker.com/)
-- [Docker Compose](https://docs.docker.com/compose/)
-- [Vagrant](https://www.vagrantup.com/) - Development Environments Made Easy
-- [Ansible](https://www.ansible.com/) - AUTOMATION FOR EVERYONE
-- [Jenkins](https://jenkins.io/) - Build great things at any scale
-- [Jenkinx-X](http://jenkins-x.io/) - Jenkins X is a CI/CD solution for modern cloud applications on Kubernetes
-- [Kubernetes](https://kubernetes.io/) - Automating deployment, scaling, and management of containerized applications.
-- [Helm](https://helm.sh/) - The package manager for Kubernetes

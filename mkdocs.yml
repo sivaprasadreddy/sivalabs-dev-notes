@@ -2,10 +2,14 @@ site_name: Quick Reference Docs
 theme: material
 nav:
     - Home: index.md
-    - Learning: learning.md
+    - Java: java.md
+    - Kotlin: kotlin.md
+    - SpringBoot: springboot.md
+    - Maven: maven.md
+    - Gradle: gradle.md
+    - DevOps: devops.md
     - Docker: docker.md
     - Ansible: ansible.md
-    - Maven: maven.md
     - Linux: linux.md
-    
+    - Learning: learning.md
     
