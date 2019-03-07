@@ -521,3 +521,59 @@
     </executions>
 </plugin>
 ```
+
+### git-commit-id-plugin
+
+```xml
+<plugin>
+    <groupId>pl.project13.maven</groupId>
+    <artifactId>git-commit-id-plugin</artifactId>
+    <version>2.2.2</version>
+    <executions>
+        <execution>
+            <goals>
+                <goal>revision</goal>
+            </goals>
+        </execution>
+    </executions>
+    <configuration>
+        <dateFormat>yyyy-MM-dd'T'HH:mm:ssZ</dateFormat>
+        <generateGitPropertiesFile>true</generateGitPropertiesFile>
+    </configuration>
+</plugin>
+```
+
+### maven-javadoc-plugin
+
+```xml
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-javadoc-plugin</artifactId>
+    <configuration>
+        <sourceFileExcludes>
+            <exclude>**/generated/**</exclude>
+        </sourceFileExcludes>
+    </configuration>
+    <executions>
+        <execution>
+            <id>attach-javadocs</id>
+            <phase>package</phase>
+            <goals>
+                <goal>jar</goal>
+            </goals>
+        </execution>
+    </executions>
+</plugin>
+```
+
+### maven-enforcer-plugin
+<https://maven.apache.org/enforcer/maven-enforcer-plugin/>
+
+### maven-compiler-plugin
+### protobuf-maven-plugin
+### build-helper-maven-plugin
+### properties-maven-plugin
+### jooq-codegen-maven
+### maven-checkstyle-plugin
+### exec-maven-plugin
+
