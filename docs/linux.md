@@ -362,3 +362,26 @@ To search for lines that don’t contain a selected text string, use the -v opti
 $ grep -rli peerdns /usr/share/doc/
 
 $ ip addr show | grep inet
+
+
+## SSH Password-less login
+
+1. Install OpenSSH on Server
+
+ex: sudo apt-get install openssh-server
+    sudo service ssh restart (or) sudo systemctl start ssh
+
+2. On client machine, generate ssh keys
+
+  ssh-keygen -t rsa
+
+  Copy public key (id_rsa.pub) from client machine to server's authorized_keys.
+
+  ssh-copy-id <username>@<ssh-server-ip>
+
+  ssh-copy-id siva@192.168.0.103
+
+  Now you can ssh without requiring to enter password:
+  ssh siva@192.168.0.103
+
+Note: Check configuration of SSH server in /etc/ssh/sshd_config file.
