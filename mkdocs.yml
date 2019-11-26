@@ -13,16 +13,24 @@ copyright: 'Copyright &copy; 2019 - 2020 K Siva Prasad Reddy'
 theme: material
 nav:
     - Home: index.md
-    - Java: java.md
-    - Kotlin: kotlin.md
-    - SpringBoot: springboot.md
-    - Maven: maven.md
-    - Gradle: gradle.md
-    - DevOps: devops.md
-    - Docker: docker.md
-    - Ansible: ansible.md
-    - Linux: linux.md
     - Learning: learning.md
+    - Java:
+        - Ecosystem: java/ecosystem.md
+        - Maven: java/maven.md
+        - Gradle: java/gradle.md
+    - Kotlin:
+        - Introduction: kotlin/introduction.md
+    - SpringBoot:
+        - Introduction: springboot/introduction.md
+    - Python:
+        - Introduction: python/introduction.md
+        - Installation: python/installation.md
+    - DevOps:
+        - Tools: devops/devops.md
+        - Linux: devops/linux.md
+        - Docker: devops/docker.md
+        - Ansible: devops/ansible.md
+
 
 # Customization
 extra:
