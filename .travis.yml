@@ -2,7 +2,7 @@ sudo: false
 language: python
 env:
   global:
-  - secure: S/Qwufbvxf03AoBtb85ZP3mJUszLYixGN31M0EF9lcJA6csWT4wrBnuRpq0gyFAOYh5jXEkQEhmNfnL43xOHx5kZrDRbugaA63tZ8iuh3YngB3HVVCBom8qb1gE+MAWqHrzWcEMT+Q1AIbVqU9nsVt48p9hQRz+Lazz+pfKzuXM=
+  - secure: HGUMtf3g9zpglHp1Fo6ov0o9SOnEIpT+lCcjZWrCD47sODXNmx2in4sJ7hWNk1iP1NBQQKTAeYc10dRqVUJlw13G7Om2vsBtRJ/+WzGY4IzPZxE+uWEN42/iYLzQtWsvFsrL1+yHsZ0Cjyl9u3xYrZ5VlATuciEoJQVyq87oM6w=
 install:
 - pip install pygments
 - pip install mkdocs
