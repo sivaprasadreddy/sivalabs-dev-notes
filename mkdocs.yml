@@ -10,7 +10,8 @@ repo_url: 'https://github.com/sivaprasadreddy/cheatsheets'
 # Copyright
 copyright: 'Copyright &copy; 2020 - 2021 K Siva Prasad Reddy'
 
-theme: material
+theme:
+  name: material
 nav:
     - Home: index.md
     - Learning: learning.md
@@ -36,11 +37,11 @@ nav:
 extra:
   manifest: 'manifest.webmanifest'
   social:
-    - icon: brands/github-alt
+    - icon: fontawesome/brands/github-alt
       link: 'https://github.com/sivaprasadreddy'
-    - icon: brands/twitter
+    - icon: fontawesome/brands/twitter
       link: 'https://twitter.com/sivalabs'
-    - icon: brands/linkedin
+    - icon: fontawesome/brands/linkedin
       link: 'https://linkedin.com/in/siva-prasad-reddy-k-3a909172'
 
 # Extensions
