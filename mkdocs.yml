@@ -11,28 +11,38 @@ repo_url: 'https://github.com/sivaprasadreddy/cheatsheets'
 copyright: 'Copyright &copy; 2020 - 2021 K Siva Prasad Reddy'
 
 theme: material
+  feature:
+    instant: true
 nav:
     - Home: index.md
-    - Java: java.md
-    - Kotlin: kotlin.md
-    - SpringBoot: springboot.md
-    - Maven: maven.md
-    - Gradle: gradle.md
-    - DevOps: devops.md
-    - Docker: docker.md
-    - Ansible: ansible.md
-    - Linux: linux.md
     - Learning: learning.md
+    - Java:
+        - Ecosystem: java/ecosystem.md
+        - Maven: java/maven.md
+        - Gradle: java/gradle.md
+    - Kotlin:
+        - Introduction: kotlin/introduction.md
+    - SpringBoot:
+        - Introduction: springboot/introduction.md
+    - Python:
+        - Introduction: python/introduction.md
+        - Installation: python/installation.md
+    - DevOps:
+        - Tools: devops/devops.md
+        - Linux: devops/linux.md
+        - Docker: devops/docker.md
+        - Ansible: devops/ansible.md
+
 
 # Customization
 extra:
   manifest: 'manifest.webmanifest'
   social:
-    - type: 'github'
+    - icon: brands/github-alt
       link: 'https://github.com/sivaprasadreddy'
-    - type: 'twitter'
+    - icon: brands/twitter
       link: 'https://twitter.com/sivalabs'
-    - type: 'linkedin'
+    - icon: brands/linkedin
       link: 'https://linkedin.com/in/siva-prasad-reddy-k-3a909172'
 
 # Extensions
