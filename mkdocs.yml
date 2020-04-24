@@ -11,8 +11,6 @@ repo_url: 'https://github.com/sivaprasadreddy/cheatsheets'
 copyright: 'Copyright &copy; 2020 - 2021 K Siva Prasad Reddy'
 
 theme: material
-  feature:
-    instant: true
 nav:
     - Home: index.md
     - Learning: learning.md
