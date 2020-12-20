@@ -38,6 +38,7 @@ nav:
       - Linux: devops/linux.md
       - Docker: devops/docker.md
       - Ansible: devops/ansible.md
+      - AWS: devops/aws.md
   - Misc:
       - CleanArchitecture: misc/clean-architecture.md
 
