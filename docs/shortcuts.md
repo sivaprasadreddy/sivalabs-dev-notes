@@ -45,6 +45,7 @@ http://sushihangover.github.io/iterm2-osx-jump-word-wise-left-and-right-in-navig
 
 ## Working with open source
 
+```shell
 git clone https://github.com/sivaprasadreddy/spring-boot.git
 cd spring-boot
 git remote add upstream https://github.com/spring-projects/spring-boot.git
@@ -53,17 +54,10 @@ git fetch upstream
 git checkout master
 git merge upstream/master
 git push
+```
 
 ## Reset to Upstream
 
-ensures current branch is master
-\$ git checkout master
-
-pulls all new commits made to upstream/master
-\$ git pull upstream master
-
-this will delete all your local changes to master
-\$ git reset --hard upstream/master
-
-take care, this will delete all your changes on your forked master
-\$ git push origin master --force
+* Ensures current branch is master `$ git checkout master`
+* Pulls all new commits made to upstream/master `$ git pull upstream master`
+* To remove all your local changes to master `$ git reset --hard upstream/master`

@@ -1,12 +1,12 @@
 # TypeScript Tutorial
 
-Installation:
+## Installation:
 
 `npm install -g typescript`
 
-HelloWorld
+#### HelloWorld
 
-hello.ts
+**hello.ts**
 
 ```
 function greeter(person) {
@@ -18,8 +18,9 @@ let user = "Jane User";
 document.body.textContent = greeter(user);
 ```
 
-`tsc greeter.ts` -> compile
+Compile : `tsc greeter.ts` 
 
+```
 let hello = "Hello!";
 let isDone: boolean = false;
 let color: string = "blue";
@@ -32,3 +33,4 @@ const numLivesForCat = 9;
 
 let input = [1, 2];
 let [first, second] = input;
+```

@@ -4,20 +4,20 @@
 
 - What is Layered Architecture?
 - Advantages
-  - Simple, commonly used
+    - Simple, commonly used
 - Challenges
-  - Chances of becoming tangled mess
-  - Not very explicit about code intention
+    - Chances of becoming tangled mess
+    - Not very explicit about code intention
 
 ## Clean Architecture
 
 - What is Clean Architecture?
 - Advantages
-  - More maintainable in the long run
-  - Ability to switch frameworks without changing core domain
+    - More maintainable in the long run
+    - Ability to switch frameworks without changing core domain
 - Challenges
-  - More code to write and maintain
-  - May not use frameworks features in easier way
+    - More code to write and maintain
+    - May not use frameworks features in easier way
 
 ## Questions to ask ourselves
 

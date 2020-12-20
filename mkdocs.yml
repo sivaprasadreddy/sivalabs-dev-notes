@@ -28,11 +28,11 @@ nav:
       - Introduction: python/introduction.md
       - Installation: python/installation.md
   - Ruby:
-      - Ruby: ruby/ruby.md
+      - Introduction: ruby/introduction.md
   - Go:
-      - Go: golang/golang.md
+      - Introduction: golang/introduction.md
   - TypeScript:
-      - TypeScript: typescript/typescript.md
+      - Introduction: typescript/introduction.md
   - DevOps:
       - Tools: devops/devops.md
       - Linux: devops/linux.md
