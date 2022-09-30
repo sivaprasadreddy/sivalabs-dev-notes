@@ -2,7 +2,7 @@
 click==7.1.2
 future==0.18.2
 jinja2==2.11.2
-joblib==0.16.0
+joblib==1.2.0
 livereload==2.6.3
 lunr[languages]==0.5.8
 markdown==3.2.2
