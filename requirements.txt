@@ -10,7 +10,7 @@ markupsafe==2.0.0a1
 mkdocs-material-extensions==1.0
 mkdocs-material==5.5.12
 mkdocs==1.1.2
-nltk==3.5
+nltk==3.6.6
 prompt-toolkit==3.0.7
 pygments==2.7.0
 pymdown-extensions==8.0
