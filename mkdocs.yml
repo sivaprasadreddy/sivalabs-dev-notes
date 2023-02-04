@@ -1,14 +1,14 @@
-site_name: "Siva CheatSheets"
+site_name: "Siva Tech Notes"
 site_description: "My Quick Reference Docs"
 site_author: "K Siva Prasad Reddy"
-site_url: "https://sivaprasadreddy.github.io/cheatsheets/"
+site_url: "https://sivalabs-dev-notes.netlify.app/"
 
 # Repository
-repo_name: "sivaprasadreddy/cheatsheets"
-repo_url: "https://github.com/sivaprasadreddy/cheatsheets"
+repo_name: "sivaprasadreddy/sivalabs-dev-notes"
+repo_url: "https://github.com/sivaprasadreddy/sivalabs-dev-notes"
 
 # Copyright
-copyright: "Copyright &copy; 2020 - 2021 K Siva Prasad Reddy"
+copyright: "Copyright &copy; 2020 - 2023 K Siva Prasad Reddy"
 
 theme:
   name: material
@@ -51,8 +51,9 @@ extra:
     - icon: fontawesome/brands/twitter
       link: "https://twitter.com/sivalabs"
     - icon: fontawesome/brands/linkedin
-      link: "https://linkedin.com/in/siva-prasad-reddy-k-3a909172"
+      link: "https://www.linkedin.com/in/siva-prasad-reddy-katamreddy/"
 
 # Extensions
 markdown_extensions:
   - codehilite
+  - tables
