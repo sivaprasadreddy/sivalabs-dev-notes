@@ -1,4 +1,4 @@
-My CheatSheets for quick reference
+My Tech Notes for quick reference
 ==================================
 
 * Install Mkdocs https://www.mkdocs.org/#installation
