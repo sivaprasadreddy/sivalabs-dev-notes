@@ -1,6 +1,6 @@
 # Home
 
-Welcome to My Quick Reference Cheatsheets
+Welcome to My Tech Notes
 
 # My favorite development tools
 
