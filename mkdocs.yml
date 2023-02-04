@@ -1,11 +1,11 @@
 site_name: "Siva Tech Notes"
 site_description: "My Quick Reference Docs"
 site_author: "K Siva Prasad Reddy"
-site_url: "https://sivaprasadreddy.github.io/cheatsheets/"
+site_url: "https://sivalabs-dev-notes.netlify.app/"
 
 # Repository
-repo_name: "sivaprasadreddy/cheatsheets"
-repo_url: "https://github.com/sivaprasadreddy/cheatsheets"
+repo_name: "sivaprasadreddy/sivalabs-dev-notes"
+repo_url: "https://github.com/sivaprasadreddy/sivalabs-dev-notes"
 
 # Copyright
 copyright: "Copyright &copy; 2020 - 2023 K Siva Prasad Reddy"
