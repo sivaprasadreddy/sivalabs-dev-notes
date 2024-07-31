@@ -8,3 +8,5 @@ build
 *.iml
 .springBeans
 /site/
+.venv/
+

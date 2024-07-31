@@ -6,7 +6,7 @@ We can go to [https://golang.org/dl/](https://golang.org/dl/) and download the b
 
 ```bash
 $ go version
-go version go1.14.1 darwin/amd64
+go version go1.21.6 darwin/amd64
 $
 ```
 
@@ -62,7 +62,7 @@ go: creating new go.mod: module github.com/sivaprasadreddy/hello-go
 hello-go> cat go.mod
 module github.com/sivaprasadreddy/hello-go
 
-go 1.14
+go 1.21
 hello-go>
 ```
 
@@ -73,7 +73,7 @@ hello-go> go get -u github.com/mitchellh/go-homedir
 hello-go> cat go.mod
 module github.com/sivaprasadreddy/hello-go
 
-go 1.14
+go 1.21
 
 require github.com/mitchellh/go-homedir v1.1.0 // indirect
 hello-go>

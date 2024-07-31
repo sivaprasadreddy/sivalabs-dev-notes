@@ -8,7 +8,7 @@ repo_name: "sivaprasadreddy/sivalabs-dev-notes"
 repo_url: "https://github.com/sivaprasadreddy/sivalabs-dev-notes"
 
 # Copyright
-copyright: "Copyright &copy; 2020 - 2023 K Siva Prasad Reddy"
+copyright: "Copyright &copy; 2020 - 2024 K Siva Prasad Reddy"
 
 theme:
   name: material
@@ -24,15 +24,8 @@ nav:
       - Introduction: kotlin/introduction.md
   - SpringBoot:
       - Introduction: springboot/introduction.md
-  - Python:
-      - Introduction: python/introduction.md
-      - Installation: python/installation.md
-  - Ruby:
-      - Introduction: ruby/introduction.md
   - Go:
       - Introduction: golang/introduction.md
-  - TypeScript:
-      - Introduction: typescript/introduction.md
   - DevOps:
       - Tools: devops/devops.md
       - Linux: devops/linux.md
@@ -51,7 +44,7 @@ extra:
     - icon: fontawesome/brands/twitter
       link: "https://twitter.com/sivalabs"
     - icon: fontawesome/brands/linkedin
-      link: "https://www.linkedin.com/in/siva-prasad-reddy-katamreddy/"
+      link: "https://www.linkedin.com/in/ksivaprasadreddy/"
 
 # Extensions
 markdown_extensions:

@@ -9,7 +9,7 @@ $ curl -s "https://get.sdkman.io" | bash
 $ source "$HOME/.sdkman/bin/sdkman-init.sh"
 $ sdk version
 $ sdk list java
-$ sdk install java 11.0.2-open
+$ sdk install java 21.0.1-tem
 ```
 
 ## IDEs
