@@ -1,0 +1,27 @@
+[tools]
+python = "3.15"
+
+[env]
+_.python.venv = { path = ".venv", create = true, uv_create_args = ["--seed"] }
+
+[tasks.install]
+description = "Install documentation dependencies into .venv"
+run = "python -m pip install -r requirements.txt"
+
+[tasks.serve]
+description = "Serve the documentation at http://127.0.0.1:8000"
+depends = ["install"]
+run = "python -m mkdocs serve --config-file mkdocs.yml"
+
+[tasks.build]
+description = "Build the static documentation site into site/"
+depends = ["install"]
+run = "python -m mkdocs build --config-file mkdocs.yml"
+
+[tasks."docker:serve"]
+description = "Serve the documentation using Docker at http://127.0.0.1:8000"
+run = "bash scripts/docker.sh serve"
+
+[tasks."docker:build"]
+description = "Build the static documentation site using Docker into site/"
+run = "bash scripts/docker.sh build"
