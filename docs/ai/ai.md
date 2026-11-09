@@ -37,8 +37,10 @@
 * [Kotlin Agent Skills](https://github.com/Kotlin/kotlin-agent-skills)
 * [Matt Pocock Skills](https://github.com/mattpocock/skills)
 * [Addy Osmani Agent Skills](https://github.com/addyosmani/agent-skills)
+* [Superpowers](https://github.com/obra/superpowers)
 * [Piotr Mińkowski Spring Boot Skills](https://github.com/piomin/claude-ai-spring-boot)
 * [Rrezart Prebreza Spring Boot Skills](https://github.com/rrezartprebreza/spring-boot-skills)
+* [jvmskills](https://jvmskills.com/)
 
 ## MCP Servers
 - Context7 : <https://github.com/upstash/context7>
