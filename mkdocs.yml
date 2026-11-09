@@ -16,7 +16,7 @@ nav:
   - Home: index.md
   - Learning: learning.md
   - Shortcuts: shortcuts.md
-  - AI: ai.md
+  - AI: ai/ai.md
   - Java:
       - Ecosystem: java/ecosystem.md
       - Maven: java/maven.md

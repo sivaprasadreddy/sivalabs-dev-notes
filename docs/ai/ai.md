@@ -31,6 +31,31 @@
 * https://ollama.com/
 * https://lmstudio.ai/
 
+## Agent Skills
+* [SivaLabs Agent Skills](https://github.com/sivaprasadreddy/sivalabs-agent-skills)
+* [JetBrains Skills](https://github.com/JetBrains/skills)
+* [Kotlin Agent Skills](https://github.com/Kotlin/kotlin-agent-skills)
+* [Matt Pocock Skills](https://github.com/mattpocock/skills)
+* [Addy Osmani Agent Skills](https://github.com/addyosmani/agent-skills)
+* [Piotr Mińkowski Spring Boot Skills](https://github.com/piomin/claude-ai-spring-boot)
+* [Rrezart Prebreza Spring Boot Skills](https://github.com/rrezartprebreza/spring-boot-skills)
+
+## MCP Servers
+- Context7 : https://github.com/upstash/context7
+- Playwright : https://github.com/microsoft/playwright-mcp
+- GitHub : https://github.com/github/github-mcp-server
+- DockerHub : https://github.com/docker/hub-mcp
+- JetBrains : https://www.jetbrains.com/help/idea/mcp-server.html
+- Vaadin : https://mcp.vaadin.com/docs/
+- jOOQ : https://jooq-mcp.martinelli.ch/
+- Chrome DevTools : https://github.com/ChromeDevTools/chrome-devtools-mcp
+
+## Spec Driven Development
+- OpenSpec : https://openspec.dev/
+- BMAD : https://docs.bmad-method.org/
+- spec-kit : https://github.com/github/spec-kit
+- AI Unified Process: https://unifiedprocess.ai/
+
 ## AI Tools
 * https://www.futuretools.io/
 * https://landscape.ainativedev.io/
