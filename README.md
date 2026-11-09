@@ -1,11 +1,18 @@
 My Tech Notes for Quick Reference
 ==================================
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a6ea7f2b-508d-48d2-a787-9d42689681a2/deploy-status)](https://app.netlify.com/sites/sivalabs-dev-notes/deploys)
+[![Deploy to GitHub Pages](https://github.com/sivaprasadreddy/sivalabs-dev-notes/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/sivaprasadreddy/sivalabs-dev-notes/actions/workflows/deploy-pages.yml)
 
-https://sivalabs-dev-notes.netlify.app/
+https://sivaprasadreddy.github.io/sivalabs-dev-notes/
 
-* Install Mkdocs https://www.mkdocs.org/#installation
-  * pip install mkdocs
-  * pip install mkdocs-material
+* Use Python 3.12 and install dependencies: `python -m pip install -r requirements.txt`
 * Run locally: `mkdocs serve` and open http://127.0.0.1:8000/
+* Build locally: `mkdocs build --config-file mkdocs.yml`
+
+Deployment
+----------
+
+In the repository's **Settings → Pages → Build and deployment**, set **Source** to **GitHub Actions**.
+The workflow builds and deploys the site on every push to `main`. You can also run it manually from the **Actions** tab.
+
+Disconnect the repository from Netlify to stop its automatic deployments.

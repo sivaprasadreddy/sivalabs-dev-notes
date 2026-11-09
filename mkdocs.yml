@@ -1,14 +1,14 @@
 site_name: "Siva Tech Notes"
 site_description: "My Quick Reference Docs"
 site_author: "K Siva Prasad Reddy"
-site_url: "https://sivalabs-dev-notes.netlify.app/"
+site_url: "https://sivaprasadreddy.github.io/sivalabs-dev-notes/"
 
 # Repository
 repo_name: "sivaprasadreddy/sivalabs-dev-notes"
 repo_url: "https://github.com/sivaprasadreddy/sivalabs-dev-notes"
 
 # Copyright
-copyright: "Copyright &copy; 2020 - 2024 K Siva Prasad Reddy"
+copyright: "Copyright &copy; 2020 - 2026 K Siva Prasad Reddy"
 
 theme:
   name: material
