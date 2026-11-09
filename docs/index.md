@@ -25,6 +25,8 @@ Welcome to My Tech Notes
 
 ## Utilities
 
+- [Obsidian](https://obsidian.md/)
+- [Notion](https://www.notion.com/)
 - [Bruno](https://www.usebruno.com/) - The Git-native API client
 - [Insomina](https://insomnia.rest/) - REST client
 - [Bitwarden](https://bitwarden.com/) - Password Manager
