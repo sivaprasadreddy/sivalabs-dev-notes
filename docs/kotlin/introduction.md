@@ -3,8 +3,8 @@
 [Kotlin](https://kotlinlang.org/) is a JVM based programming language created by JetBrains.
 
 ## Build Tool Configuration
-- [Configure Kotlin using Maven](https://kotlinlang.org/docs/reference/using-maven.html)
-- [Configure Kotlin using Gradle](https://kotlinlang.org/docs/reference/using-gradle.html)
+- [Configure Kotlin using Maven](https://kotlinlang.org/docs/maven.html)
+- [Configure Kotlin using Gradle](https://kotlinlang.org/docs/gradle.html)
 
 
 ## Libraries/Frameworks

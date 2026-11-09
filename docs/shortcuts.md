@@ -41,7 +41,7 @@ By default, `git stash pop` will re-apply the most recently created stash: stash
 
 `git stash clear`
 
-http://sushihangover.github.io/iterm2-osx-jump-word-wise-left-and-right-in-navigation/
+Source: http://sushihangover.github.io/iterm2-osx-jump-word-wise-left-and-right-in-navigation/
 
 ## Working with open source
 

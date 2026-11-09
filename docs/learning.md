@@ -11,12 +11,12 @@
 ## Basic Steps to learn a programming language
 
 1. Introduction
-1. Installation
-1. Basics
-1. Data Structures
-1. File IO
-1. Exception Handling
-1. XML, JSON processing
-1. Working with SQL Databases
-1. Building Web Applications
-1. Building REST API
+2. Installation
+3. Basics
+4. Data Structures
+5. File IO
+6. Exception Handling
+7. XML, JSON processing
+8. Working with SQL Databases
+9. Building Web Applications
+10. Building REST API
