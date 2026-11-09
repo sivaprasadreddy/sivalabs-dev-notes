@@ -1,14 +1,14 @@
 # AI
 
 ## AI Chat
-* https://chatgpt.com/
-* https://claude.ai/new
-* https://gemini.google.com/app
-* https://aistudio.google.com/
-* https://www.deepseek.com/
-* https://qwen.ai/
-* https://www.perplexity.ai/
-* https://manus.im/app
+* <https://chatgpt.com/>
+* <https://claude.ai/new>
+* <https://gemini.google.com/app>
+* <https://aistudio.google.com/>
+* <https://www.deepseek.com/>
+* <https://qwen.ai/>
+* <https://www.perplexity.ai/>
+* <https://manus.im/app>
 
 ## AI Agentic Tools
 - [Claude Code](https://claude.com/product/claude-code)
@@ -28,8 +28,8 @@
 * [Meta Muse](https://ai.meta.com/muse/)
 
 ## Local LLMs
-* https://ollama.com/
-* https://lmstudio.ai/
+* <https://ollama.com/>
+* <https://lmstudio.ai/>
 
 ## Agent Skills
 * [SivaLabs Agent Skills](https://github.com/sivaprasadreddy/sivalabs-agent-skills)
@@ -41,22 +41,22 @@
 * [Rrezart Prebreza Spring Boot Skills](https://github.com/rrezartprebreza/spring-boot-skills)
 
 ## MCP Servers
-- Context7 : https://github.com/upstash/context7
-- Playwright : https://github.com/microsoft/playwright-mcp
-- GitHub : https://github.com/github/github-mcp-server
-- DockerHub : https://github.com/docker/hub-mcp
-- JetBrains : https://www.jetbrains.com/help/idea/mcp-server.html
-- Vaadin : https://mcp.vaadin.com/docs/
-- jOOQ : https://jooq-mcp.martinelli.ch/
-- Chrome DevTools : https://github.com/ChromeDevTools/chrome-devtools-mcp
+- Context7 : <https://github.com/upstash/context7>
+- Playwright : <https://github.com/microsoft/playwright-mcp>
+- GitHub : <https://github.com/github/github-mcp-server>
+- DockerHub : <https://github.com/docker/hub-mcp>
+- JetBrains : <https://www.jetbrains.com/help/idea/mcp-server.html>
+- Vaadin : <https://mcp.vaadin.com/docs/>
+- jOOQ : <https://jooq-mcp.martinelli.ch/>
+- Chrome DevTools : <https://github.com/ChromeDevTools/chrome-devtools-mcp>
 
 ## Spec Driven Development
-- OpenSpec : https://openspec.dev/
-- BMAD : https://docs.bmad-method.org/
-- spec-kit : https://github.com/github/spec-kit
-- AI Unified Process: https://unifiedprocess.ai/
+- OpenSpec : <https://openspec.dev/>
+- BMAD : <https://docs.bmad-method.org/>
+- spec-kit : <https://github.com/github/spec-kit>
+- AI Unified Process: <https://unifiedprocess.ai/>
 
 ## AI Tools
-* https://www.futuretools.io/
-* https://landscape.ainativedev.io/
-* https://notebooklm.google/
+* <https://www.futuretools.io/>
+* <https://landscape.ainativedev.io/>
+* <https://notebooklm.google/>
